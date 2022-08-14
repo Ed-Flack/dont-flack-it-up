@@ -1,0 +1,40 @@
+.keyboard {
+    margin-top: 20px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.topRow {
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+    width: 310px;
+    padding-bottom: 5px;
+}
+
+.middleRow {
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+    width: 310px;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bottomRow {
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+    width: 310px;
+    margin-left: 100px;
+    padding-top: 5px;
+}
